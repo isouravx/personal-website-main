@@ -7,3 +7,27 @@ body {
   font-family: "Bebas Neue", cursive;
   font-family: "Roboto", sans-serif;
 }
+
+.first-part {
+  height: 700px;
+}
+.main-image-1,
+.main-image-2 {
+  height: 500px;
+  width: 450px;
+}
+.main-image-1 {
+  float: right;
+  margin-right: 200px;
+}
+.portfolio img {
+  height: 213px;
+  width: 343px;
+}
+.portfolio {
+  width: 30%;
+  float: left;
+}
+.all-portfolio {
+  margin-left: 5%;
+}
