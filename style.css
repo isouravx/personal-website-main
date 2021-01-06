@@ -28,7 +28,12 @@ h1 {
 h1 span {
   color: #ff8367;
 }
-
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6c6c6c;
+}
 .half-width p {
   font-size: 16px;
   font-weight: 400;
@@ -77,8 +82,8 @@ h2 {
   margin-top: -140px;
 }
 .third-part {
-  height: 1000px;
-  background-color: antiquewhite;
+  height: 950px;
+  background-color: #e5e5e5;
 }
 
 .third-part h2 {
@@ -87,4 +92,32 @@ h2 {
 }
 h2 span {
   color: #f46060;
+}
+.all-portfolio {
+  margin-left: 8%;
+}
+.portfolio {
+  margin-right: 2%;
+  height: 450px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 19.74px;
+  display: inline-block;
+}
+.portfolio img {
+  width: 460px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 20px 20px;
+}
+
+.portfolio p {
+  padding: 0 20px 20px;
 }
