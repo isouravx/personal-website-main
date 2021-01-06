@@ -7,16 +7,8 @@ body {
   font-family: "Bebas Neue", cursive;
   font-family: "Roboto", sans-serif;
 }
-.first-part {
-  height: 800px;
-  padding-left: 8%;
-  /* margin-top: 2%; */
-  background-color: aquamarine;
-}
 
-#hello {
-  margin-top: 200px;
-}
+/* common css */
 h1 {
   font-family: "Bebas Neue";
   font-size: 100px;
@@ -25,20 +17,11 @@ h1 {
   line-height: 100px;
   color: #363958;
 }
-h1 span {
-  color: #ff8367;
-}
 p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   color: #6c6c6c;
-}
-.half-width p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin: 18px 0 36px 0;
 }
 .btn {
   height: 60px;
@@ -47,10 +30,39 @@ p {
   font-size: 16px;
   background-image: linear-gradient(#ff8063, #f46060);
   border: none;
+  border-radius: 7px;
 }
 .btn a {
   color: #fff;
   text-decoration: none;
+}
+h2 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #363958;
+  text-transform: uppercase;
+}
+
+/* common css */
+
+.first-part {
+  height: 800px;
+  padding-left: 8%;
+}
+
+#hello {
+  margin-top: 200px;
+}
+
+h1 span {
+  color: #ff8367;
+}
+
+.half-width p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 18px 0 36px 0;
 }
 
 .half-width {
@@ -63,15 +75,8 @@ p {
 }
 .second-part {
   height: 670px;
-  background-color: aqua;
+
   padding-left: 8%;
-}
-h2 {
-  /* margin-top: 87px; */
-  font-weight: bold;
-  font-size: 48px;
-  color: #363958;
-  text-transform: uppercase;
 }
 
 #about {
@@ -89,6 +94,7 @@ h2 {
 .third-part h2 {
   text-align: center;
   padding: 124px 0;
+  margin-top: 100px;
 }
 h2 span {
   color: #f46060;
@@ -120,4 +126,46 @@ h3 {
 
 .portfolio p {
   padding: 0 20px 20px;
+}
+.contact {
+  padding: 100px 0;
+  text-align: center;
+  background-color: rgba(250, 194, 208, 0.349);
+}
+.contact h2 {
+  padding: 30px 0;
+}
+
+.name-form,
+email-form {
+  padding: 30px;
+}
+.form-wrapper label {
+  margin: 0 30px;
+}
+.form-wrapper button {
+  margin-top: 80px;
+}
+.form-wrapper input {
+  padding: 10px 30px;
+}
+
+.last-part {
+  height: 400px;
+  background-image: url(/images/Group_33094_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 906px;
+}
+.last-part h2 {
+  font-size: 35px;
+  font-weight: 700;
+  /* padding-left: 68%; */
+  margin-left: 68%;
+  padding-top: 25%;
+  color: #fff;
+}
+.last-part .btn {
+  margin-top: 23%;
+  margin-left: 40%;
 }
