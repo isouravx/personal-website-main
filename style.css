@@ -136,8 +136,10 @@ h3 {
   padding: 30px 0;
 }
 
-.name-form,
-email-form {
+.name-form {
+  padding: 30px;
+}
+.email-form {
   padding: 30px;
 }
 .form-wrapper label {
@@ -152,15 +154,14 @@ email-form {
 
 .last-part {
   height: 400px;
-  background-image: url(/images/last-image.png);
+  background: url(/images/last-image.png);
+  background-size: 1000px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 906px;
 }
 .last-part h2 {
   font-size: 35px;
   font-weight: 700;
-  /* padding-left: 68%; */
   margin-left: 68%;
   padding-top: 25%;
   color: #fff;
