@@ -154,7 +154,7 @@ h3 {
 
 .last-part {
   height: 400px;
-  background: url(/images/last-image.png);
+  background: url(./images/last-image.png);
   background-size: 1000px;
   background-position: center;
   background-repeat: no-repeat;
