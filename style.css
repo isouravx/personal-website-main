@@ -6,28 +6,65 @@
 body {
   font-family: "Bebas Neue", cursive;
   font-family: "Roboto", sans-serif;
+  margin: 3% 0 0 10%;
+}
+.first-part {
 }
 
-.first-part {
-  height: 700px;
+#hello {
+  margin-top: 200px;
 }
-.main-image-1,
-.main-image-2 {
-  height: 500px;
-  width: 450px;
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 100px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 100px;
+  color: #363958;
 }
-.main-image-1 {
-  float: right;
-  margin-right: 200px;
+h1 span {
+  color: #ff8367;
 }
-.portfolio img {
-  height: 213px;
-  width: 343px;
+
+.half-width p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 18px 0 36px 0;
 }
-.portfolio {
-  width: 30%;
+.btn {
+  height: 60px;
+  width: 170px;
+  font-weight: 500px;
+  font-size: 16px;
+  background-image: linear-gradient(#ff8063, #f46060);
+  border: none;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.half-width {
+  width: 40%;
   float: left;
+  margin-left: 2%;
 }
-.all-portfolio {
-  margin-left: 5%;
+.half-width img {
+  width: 90%;
+}
+
+h2 {
+  margin-top: 87px;
+  font-weight: bold;
+  font-size: 48px;
+  color: #363958;
+  text-transform: uppercase;
+}
+
+#about {
+  margin-left: 230px;
+}
+#about-img {
+  margin-top: -140px;
 }
